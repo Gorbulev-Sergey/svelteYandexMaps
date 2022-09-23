@@ -20,13 +20,11 @@
 
 			// Подписка на событие обновления данных маршрута.
 			// Обратите внимание, подписка осуществляется для поля model.
-			route.model.events.add('requestsuccess', function () {
-				// Получение ссылки на активный маршрут.
-				let ActiveRoute = route.getActiveRoute();
-				// Вывод информации о маршруте.
+			route.model.events.add('requestsuccess', () => {
+				// Получение ссылки на активный маршрут и вывод информации о маршруте.
 				data = {
-					distance: ActiveRoute.properties.get('distance').text,
-					duration: ActiveRoute.properties.get('duration').text
+					distance: route.getActiveRoute().properties.get('distance').text,
+					duration: route.getActiveRoute().properties.get('duration').text
 				};
 			});
 
