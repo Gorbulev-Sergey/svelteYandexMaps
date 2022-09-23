@@ -20,7 +20,7 @@ export function yandexMaps(containerId = 'map', center = [55.751574, 37.573856],
 
 export function yandexRoute(start, end, trafficJams = true) {
 	// Создание экземпляра маршрута.
-	var route = new ymaps.multiRouter.MultiRoute(
+	let route = new ymaps.multiRouter.MultiRoute(
 		{
 			// Точки маршрута.
 			// Обязательное поле.

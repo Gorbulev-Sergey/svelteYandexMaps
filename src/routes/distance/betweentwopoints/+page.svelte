@@ -22,12 +22,15 @@
 			// Обратите внимание, подписка осуществляется для поля model.
 			route.model.events.add('requestsuccess', function () {
 				// Получение ссылки на активный маршрут.
-				let activeRoute = route.getActiveRoute();
+				let ActiveRoute = route.getActiveRoute();
 				// Вывод информации о маршруте.
-				data.distance = activeRoute.properties.get('distance').text;
-				data.duration = activeRoute.properties.get('duration').text;
+				data = {
+					distance: ActiveRoute.properties.get('distance').text,
+					duration: ActiveRoute.properties.get('duration').text
+				};
 			});
 
+			// Добавляем маршрут на карту
 			maps.geoObjects.add(route);
 		});
 	});
