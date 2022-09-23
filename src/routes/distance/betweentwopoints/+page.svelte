@@ -59,7 +59,10 @@
 	});
 </script>
 
-<ComponentMap title="Маршрут между двумя точками">
+<ComponentMap
+	title="Маршрут между двумя точками"
+	description="<a href='https://yandex.ru/dev/maps/jsapi/doc/2.1/dg/concepts/router/multiRouter.html#multiRouter__get-active-route' target='blank'>cсылка на учебник<a/>"
+>
 	<div slot="заголовок" class="alert alert-info small mt-3">
 		<b>Информация о маршруте:</b>
 		<span>длина: {routeData.distance}, время прохождения: {routeData.duration}</span>
