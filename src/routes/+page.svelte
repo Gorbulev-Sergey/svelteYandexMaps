@@ -7,7 +7,7 @@
 	let currentPosition = [55.76, 37.64];
 	let myPlacemark, geolocation;
 
-	onMount(() => {
+	onMount(async () => {
 		yandexMaps().then((maps) => {
 			geolocation = ymaps.geolocation;
 
