@@ -45,6 +45,6 @@
 	<div slot="заголовок" class="alert alert-info small mt-3">
 		<b>Информация о маршруте:</b>
 		<span>длина: {data.distance}, время прохождения: {data.duration}</span>
-		<button class="btn btn-dark btn-sm" on:click={() => addRoute()}>Добавить маршрут</button>
+		<button class="btn btn-dark btn-sm" on:click={async () => addRoute()}>Добавить маршрут</button>
 	</div>
 </ComponentMap>
