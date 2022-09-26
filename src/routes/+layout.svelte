@@ -16,6 +16,14 @@
 				<li class="nav-item">
 					<a class="nav-link" href="/distance/betweentwopoints">Между двумя точками</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/searchlist">Поиск данных</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://developer.tech.yandex.ru/services/" target="blank"
+						>Кабинет разработчика</a
+					>
+				</li>
 			</ul>
 		</div>
 	</div>
