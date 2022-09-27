@@ -18,7 +18,7 @@
 						<a class="nav-link" href="/distance/betweentwopoints">Между двумя точками</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/searchlist">Поиск данных</a>
+						<a class="nav-link" href="/search">Поиск данных</a>
 					</li>
 				</ul>
 				<ul class="navbar-nav">
